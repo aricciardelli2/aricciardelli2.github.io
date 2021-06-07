@@ -6,7 +6,7 @@
 
 ### Purpose
 
-The purpose of the [Belly Button Biodiversity Dashboard Dashboard](https://aricciardelli2.github.io/belly_button) is to provide an interactable webpage for users to see relevant belly button bacteria data for a particular subject from the full set of belly button [data](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/belly_button/samples.json). The belly button bacteria cultures are being researched as possible sources for the next vegan meat and could be a gold mine for the subject!!
+The purpose of the [Belly Button Biodiversity Dashboard Dashboard](https://aricciardelli2.github.io/belly_button) is to provide an interactable webpage for users to see relevant belly button bacteria data for a particular subject from the full set of belly button [data](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/belly_button/samples.json). The belly button bacteria cultures are being researched as possible sources for the next synthetic meat and could be a gold mine for the subject!!
 
 ## User Flow
 
@@ -38,4 +38,4 @@ The Bacteria per Sample portion shows the quantity of each bacteria sample found
 
 ## Summary
 
-The [Belly Button Biodiversity Dashboard Dashboard](https://aricciardelli2.github.io/belly_button) is a great source for subjects to view their relevant belly button bacteria data and information to determine if their belly button is a gold mine in the hunt for the next vegan meat!
+The [Belly Button Biodiversity Dashboard Dashboard](https://aricciardelli2.github.io/belly_button) is a great source for subjects to view their relevant belly button bacteria data and information to determine if their belly button is a gold mine in the hunt for the next synthetic meat!
