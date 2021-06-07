@@ -1,21 +1,38 @@
-var trace1 = {
-    x: ['burrito', 'pizza', 'chicken'],
-    y: [10,18,4],
-    type: 'bar',
-    name: 'weekend'
+function init() {
+    var selector = d3.select("#selDataset");
+  
+    d3.json("samples.json").then((data) => {
+      console.log(data);
+      var sampleNames = data.names;
+      sampleNames.forEach((sample) => {
+        selector
+          .append("option")
+          .text(sample)
+          .property("value", sample);
+      });
+})}
+
+function optionChanged(newSample) {
+    buildMetadata(newSample);
+    // buildCharts(newSample);
 }
 
-var trace2 = {
-    x: ['burrito', 'pizza', 'chicken'],
-    y: [12,12,8],
-    type: 'bar',
-    name: 'week'
+function buildMetadata(sample) {
+    d3.json("samples.json").then((data) => {
+        var metadata = data.metadata;
+        var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
+        var result = resultArray[0];
+        var PANEL = d3.select("#sample-metadata");
+
+        PANEL.html("");
+        PANEL.append("h6").text(`ID: ${result.id}`);
+        PANEL.append("h6").text(`ETHNICITY: ${result.ethnicity}`);
+        PANEL.append("h6").text(`GENDER: ${result.gender}`);
+        PANEL.append("h6").text(`AGE: ${result.age}`);
+        PANEL.append("h6").text(`LOCATION: ${result.location}`);
+        PANEL.append("h6").text(`BBTYPE: ${result.bbtype}`);
+        PANEL.append("h6").text(`WFREQ: ${result.wfreq}`);
+    })
 }
 
-var layout = {
-    title: "Week vs. Weekend Meals",
-    xaxis: {title: "Food Option"},
-    yaxis: {title: "Number of Meals"}
-}
-
-Plotly.newPlot("plotArea", [trace2, trace1], layout);
+init();
