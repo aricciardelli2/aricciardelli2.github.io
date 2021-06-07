@@ -1,0 +1,13 @@
+body {
+    color: black;
+    font: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+p {
+    background-color: transparent;
+}
+.jumbotron {
+    background-image: url("../images/lab_burger.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
