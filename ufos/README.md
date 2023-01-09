@@ -10,25 +10,25 @@ The purpose of the UFO Sightings [webpage](https://aricciardelli2.github.io/ufos
 
 The UFO Sightings webpage [webpage](https://aricciardelli2.github.io/index.html) allows for user friendly filtering of raw UFO sightings data. To use the webpage, users first go to the UFO Sightings webage at the following URL: [https://aricciardelli2.github.io/index.html](https://aricciardelli2.github.io/index.html)
 
-![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/full_site.png)
+![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/full_site.png)
 
 At the base webpage, all the data is displayed in the table in the bottom right corner. Now it is time to filter based on user desired parameters! Users can filter the data by values for 5 of the columns (Date, City, State, Country, and Shape) by entering values in the input fields on the left. Below are examples of filters applied and the new filtered table. 
 
-* [State Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_filter.png): All data filtered by State `fl`
+* [State Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_filter.png): All data filtered by State `fl`
 
-![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_filter.png)
+![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_filter.png)
 
-* [State and Shape Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_shape_filter.png): All data filtered by State `fl` and Shape `sphere`
+* [State and Shape Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_shape_filter.png): All data filtered by State `fl` and Shape `sphere`
 
-![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_shape_filter.png)
+![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_shape_filter.png)
 
-* [State, Shape and Date Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_shape_date_filter.png): All data filtered by State `fl`, Shape `sphere` and Date `1/8/2010`. Note that this filter returns no rows as there where no UFO sightings that met these three criteria.
+* [State, Shape and Date Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_shape_date_filter.png): All data filtered by State `fl`, Shape `sphere` and Date `1/8/2010`. Note that this filter returns no rows as there where no UFO sightings that met these three criteria.
 
-![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_shape_date_filter.png)
+![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_shape_date_filter.png)
 
-* [State and Date Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_date_filter.png): All data filtered by State `fl` and Date `1/8/2010`. To return rows after returning 0 rows in the example above, the Shape filter is cleared and now sighting data based on the State and Date filters are successfully returned.
+* [State and Date Filter](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_date_filter.png): All data filtered by State `fl` and Date `1/8/2010`. To return rows after returning 0 rows in the example above, the Shape filter is cleared and now sighting data based on the State and Date filters are successfully returned.
 
-![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/resources/state_date_filter.png)
+![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/state_date_filter.png)
 
 ## Summary
 
