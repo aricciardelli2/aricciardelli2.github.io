@@ -4,7 +4,7 @@
 
 ### Purpose
 
-The purpose of the UFO Sightings [webpage](https://aricciardelli2.github.io/ufos) is to provide an interactable webpage for users to see a large amount of UFO sightings [data](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/static/js/data.js) and then filter based on multiple fields to see the specific data that the user is interested in.
+The purpose of the UFO Sightings [webpage](https://aricciardelli2.github.io/ufos) is to provide an interactable webpage for users to see a large amount of UFO sightings [data](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/static/js/data.js) and then filter based on multiple fields to see the specific data that the user is interested in.
 
 ## Results
 
