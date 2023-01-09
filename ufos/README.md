@@ -8,7 +8,7 @@ The purpose of the UFO Sightings [webpage](https://aricciardelli2.github.io/ufos
 
 ## Results
 
-The UFO Sightings webpage [webpage](https://aricciardelli2.github.io/index.html) allows for user friendly filtering of raw UFO sightings data. To use the webpage, users first go to the UFO Sightings webage at the following URL: [https://aricciardelli2.github.io/index.html](https://aricciardelli2.github.io/index.html)
+The UFO Sightings webpage [webpage](https://aricciardelli2.github.io/ufos) allows for user friendly filtering of raw UFO sightings data. To use the webpage, users first go to the UFO Sightings webage at the following URL: [https://aricciardelli2.github.io/ufos](https://aricciardelli2.github.io/ufos)
 
 ![](https://github.com/aricciardelli2/aricciardelli2.github.io/blob/master/ufos/resources/full_site.png)
 
@@ -38,4 +38,4 @@ The UFO Sightings webpage allows users to see tons of UFO sightings data and the
 * Filter by Multiple Values: Be able to filter by multiple specific values for non-numeric columns. This would enable filtering by `ca` AND `fl` for State or `cirle` AND `sphere` for Shape.
 * Filter by Not a Value: Be able to filter to NOT a specific value. This would allow users to filter by all values NOT equal to a specific value such as all sightings Country NOT `us`.
 
-Overall, the UFO Sightings [webpage](https://aricciardelli2.github.io/index.html) allows for great surfacing of UFO sightings data and user friendly filtering, and there is room for growth of the webpage in the future!
+Overall, the UFO Sightings [webpage](https://aricciardelli2.github.io/ufos) allows for great surfacing of UFO sightings data and user friendly filtering, and there is room for growth of the webpage in the future!
